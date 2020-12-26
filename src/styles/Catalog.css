@@ -1,0 +1,27 @@
+.catalog-container {
+    position: relative;
+    padding-top: 20px;
+}
+
+.movies-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 0.2fr);
+}
+
+.budget{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    color: blueviolet;
+    text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+}
+.movies-img{
+    padding-top: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.catalog-container > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
